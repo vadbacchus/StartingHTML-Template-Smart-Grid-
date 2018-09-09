@@ -3,6 +3,13 @@
 @import "libs"
 @import "_mixins/_smart-grid"
 
+*,
+*::before,
+*::after
+	box-sizing: border-box
+
+
++reset()
 
 ::placeholder
 	color: #666
@@ -33,3 +40,6 @@ body
 
 
 
+.main
+	width: 100%
+	overflow: hidden
